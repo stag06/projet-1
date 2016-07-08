@@ -1,0 +1,98 @@
+@import url(https://fonts.googleapis.com/css?family=Slabo+27px);
+
+html {
+	font-family: 'Slabo 27px', serif;
+}
+
+		
+
+header {
+		h1 {
+		color: blue;
+		text-align: center;
+}
+
+		h2 {
+			color:green;
+		background: black;
+}
+		h3 {
+			color: gray;
+}
+
+#nav {
+	padding: 0; margin: 0;
+	text-align: center; 
+}
+#nav li {
+	display: inline;
+	list-style: none;
+}
+#nav a {
+	display:inline-block;
+	margin: 0 30px;
+}
+}
+		.my-class {
+			font-size: 10px;
+
+			}
+		#adnpy {
+			text-decoration: underline;
+			background: yellow
+			}
+			/* to float an image or element */
+		.image-left {
+			float: left;
+			margin-right: 10px
+			}
+			/* to cancel the previous float */
+		.pcleared {
+		clear: right;
+		}
+		.image-right{
+			float: right;
+			margin-left: 10px
+		}
+		.small-pic{
+			width: 50px;
+			margin-right:10px;
+			margin-left: 10px;
+			margin-top: 10px;
+			margin-bottom: 10px;
+		}
+		.img-box{
+			background-color: orange;
+			float: right;
+			padding: 25px 
+			margin-left:50px 
+			border: 5px solid rebeccapurple;
+
+		}
+		.big-pic{
+			width: 96px;
+			/* all if 1 value, vertical horizontal if 2 values,
+			top/horiz/bottom if 3 values
+			and individual if 4 values*/
+			margin: 20px 50px;
+			/*margin: 15px 10px 20px 40px;*/
+			padding: 5px 5px 5px 5px;
+			background-color: orange;
+			/* margin;
+
+			margin-right:20px;
+			margin-left: 20px;
+			margin-top: 20px;
+			margin-bottom: 20px;*/
+		border-style: solid;
+		border-width: 5px;
+		border-color: black;
+		}
+		.img-box img {
+			border: 1px solid black 
+		}
+		p {
+			color: gray;
+			text-align: justify;
+		}
+}
